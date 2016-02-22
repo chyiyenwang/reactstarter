@@ -5,7 +5,10 @@ $bcolor: #C5D0D4;
 $rcolor: #F69189;
 
 // Bootstrap hard corners
-.well, .navbar, .navbar-inner, .popover, .btn, .tooltip, input, select, textarea, pre, .progress, .modal, .add-on, .alert, .table-bordered, .nav>.active>a, .dropdown-menu, .tooltip-inner, .badge, .label, .img-polaroid, .input-group-addon {
+.container, .input-group-addon, .form-control {
+  font-family: 'BELLABOO-Regular', Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
@@ -31,15 +34,18 @@ $rcolor: #F69189;
 }
 
 .panel-default {
-  font-family: 'BELLABOO-Regular', Arial, sans-serif;
-  font-size: 18px;
-  letter-spacing: 1px;
+  @extend .container;
   background-color: $ycolor;
 }
 
 .list-item {
   @extend .panel-default;
   border: none;
+}
+
+.btn {
+  @extend .container;
+  font-size: 14px;
 }
 
 .hr-header {

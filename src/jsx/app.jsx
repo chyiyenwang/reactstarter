@@ -21,7 +21,7 @@ var App = React.createClass({
   },
   render: function() {    
     return <div className="row panel panel-default">
-      <div className="col-md-8 col-md-offset-2">
+      <div className="col-md-12">
         <h1 className="text-center">
           To-Do List
         </h1>
