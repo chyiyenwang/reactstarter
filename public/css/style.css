@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'BELLABOO-Regular';
+  src: url("../sass/webfont/BELLABOO-Regular.eot");
+  src: url("../sass/webfont/BELLABOO-Regular.eot?#iefix") format("embedded-opentype"), url("../sass/webfont/BELLABOO-Regular.woff") format("woff"), url("../sass/webfont/BELLABOO-Regular.ttf") format("truetype"), url("../sass/webfont/BELLABOO-Regular.svg#BELLABOO-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.container, .panel-default, .list-item, .btn, .input-group-addon, .form-control {
+  font-family: 'BELLABOO-Regular', Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+  border-collapse: collapse !important;
+  background-image: none !important; }
+
+.content {
+  opacity: 0;
+  transition: opacity 1s ease-in; }
+
+.loaded {
+  opacity: 1; }
+
+.clear-completed {
+  margin-top: 21px;
+  margin-bottom: 15px; }
+
+.panel-default, .list-item {
+  background-color: #F3EACB; }
+
+.list-item {
+  border: none; }
+
+.btn {
+  font-size: 14px; }
+
+.hr-header {
+  border-color: #F69189; }
+
+.hr-lines {
+  border-color: #C5D0D4;
+  margin-top: 7px;
+  margin-bottom: 7px; }
+
+.input-group-addon:first-child {
+  border-right: 1px solid #ccc; }
+
+.form-control:disabled {
+  text-decoration: line-through;
+  background-color: #F3EACB; }
