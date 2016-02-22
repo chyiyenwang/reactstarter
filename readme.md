@@ -1,6 +1,6 @@
 # [To-Do-List React](https://todo-chyiyenwang.herokuapp.com/)
 ### About
-Created a To-Do List about to familiarize myself with ReactJS and Firebase.
+Created a To-Do List about to familiarize myself with ReactJS, Gulp, and Firebase.
 
 ### Technologies Used
 * React
