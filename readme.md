@@ -12,4 +12,4 @@ Created a To-Do List about to familiarize myself with ReactJS and Firebase.
   - browserify, gulp, gulp-concat, gulp-react, gulp-sass, gulp-server-livereload, gulp-util, gulp-watch, reactify, vinyl-source-stream, watchify
 
 ### Screenshots
-![Home](https://github.com/chyiyenwang/to-do-list-react/screenshots/home.png "Home screenshot")
+![Home](https://github.com/chyiyenwang/to-do-list-react/blob/master/screenshots/home.png "Home screenshot")
