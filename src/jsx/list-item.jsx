@@ -14,18 +14,21 @@ module.exports = React.createClass({
     this.fb = new Firebase(rootUrl + 'items/' + this.props.item.key)
   },
   render: function() {
-    return <div className="input-group">
+    return <div>
+     <div className="input-group">
       <span className="input-group-addon">
         <input
           type="checkbox"
           checked={this.state.done}
           onChange={this.handleDoneChange} />
       </span>
-      <input type="text"
-        disabled={this.state.done}
-        className="form-control"
-        value={this.state.text}
-        onChange={this.handleTextChange} />
+      <span>
+        <input type="text"
+          disabled={this.state.done}
+          className="form-control list-item"
+          value={this.state.text}
+          onChange={this.handleTextChange} />
+      </span>
       <span className="input-group-btn">
         {this.changesButtons()}
         <button 
@@ -35,6 +38,10 @@ module.exports = React.createClass({
           Delete
         </button>
       </span>
+      </div>
+      <div>
+        <hr className="hr-lines" />
+      </div>
     </div>
   },
   changesButtons: function() {

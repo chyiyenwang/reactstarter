@@ -27,7 +27,6 @@ module.exports = React.createClass({
           </ListItem>
         )
       }
-
       return children;
     }
   }

@@ -1,0 +1,62 @@
+@import 'bellaboo';
+
+$ycolor: #F3EACB;
+$bcolor: #C5D0D4;
+$rcolor: #F69189;
+
+// Bootstrap hard corners
+.well, .navbar, .navbar-inner, .popover, .btn, .tooltip, input, select, textarea, pre, .progress, .modal, .add-on, .alert, .table-bordered, .nav>.active>a, .dropdown-menu, .tooltip-inner, .badge, .label, .img-polaroid, .input-group-addon {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+  border-collapse: collapse !important;
+  background-image: none !important;
+}
+
+.content {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.loaded {
+  opacity: 1;
+}
+
+.clear-completed {
+  margin-top: 21px;
+  margin-bottom: 15px;
+}
+
+.panel-default {
+  font-family: 'BELLABOO-Regular', Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background-color: $ycolor;
+}
+
+.list-item {
+  @extend .panel-default;
+  border: none;
+}
+
+.hr-header {
+  border-color: $rcolor;
+}
+
+.hr-lines {
+  border-color: $bcolor;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.input-group-addon:first-child {
+  border-right: 1px solid #ccc;
+}
+
+.form-control:disabled {
+  text-decoration: line-through;
+  background-color: #F3EACB;
+}

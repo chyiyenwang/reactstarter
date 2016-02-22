@@ -22,11 +22,11 @@ var App = React.createClass({
   render: function() {    
     return <div className="row panel panel-default">
       <div className="col-md-8 col-md-offset-2">
-        <h2 className="text-center">
+        <h1 className="text-center">
           To-Do List
-        </h2>
+        </h1>
         <Header itemsStore={this.firebaseRefs.items} />
-        <hr />
+        <hr className="hr-header" />
         <div className={"content " + (this.state.loaded ? "loaded" : "")}>
           <List items={this.state.items} />
           {this.deleteButton()}
@@ -40,13 +40,12 @@ var App = React.createClass({
     }
     else {
       return <div className="text-center clear-completed">
-        <hr />
         <button
           type="button"
           onClick={this.onDeleteDoneClick}
           className="btn btn-Warning"
           >
-          Clear Completed
+          Clear Completed Tasks
         </button>
       </div>
     }
